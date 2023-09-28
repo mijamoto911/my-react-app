@@ -1,4 +1,5 @@
 import { Input } from "./components/Input/Input";
+import { Button } from "./components/Button/Button";
 
 const App = () => {
   const handleChange = (event) => {};
@@ -6,7 +7,8 @@ const App = () => {
   return (
     <div>
       <h2>First project React</h2>
-      <Input onChange={handleChange} onClick={handleClick}></Input>
+      <Input onChange={handleChange}></Input>
+      <Button onClick={handleClick}>Click me</Button>
     </div>
   );
 };
